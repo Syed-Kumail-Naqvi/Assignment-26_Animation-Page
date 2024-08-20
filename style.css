@@ -1,0 +1,48 @@
+* {
+    background-color: cyan;
+} 
+.image {
+    width: 50%;
+}
+img {
+    padding-left: 50px;
+    height: 600px;
+}
+
+.bodys {
+    display: flex;
+}
+.right {
+    padding-left: 250px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.mainheadi {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subheadi {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    width: 50%;
+}
+button {
+    background-color: red;
+    color: white;
+    width: 50%;
+    height: 50px;
+    font-size: x-large;
+    border-color: red;
+}
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    color: white;
+    padding-top: 50px;
+}
