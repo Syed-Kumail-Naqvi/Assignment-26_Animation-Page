@@ -75,39 +75,44 @@ footer {
     color: white;
     padding-top: 50px;
 }
-@media (max-width:400px) {
+@media (max-width:1000px) {
     nav {
-        width: 630px;
+        width: 800px;
         flex-direction: column;
     }
     .edu {
         text-align: center;
     }
     ul {
-        word-spacing: 50px;
+        word-spacing: 90px;
     }
     a {
         font-size: medium;
     }
+    img {
+        padding-left: 150px;
+    }
     .bodys {
-        width: 630px;
+        width: 800px;
+        margin: auto;
         flex-direction: column;
         padding-bottom: 20px;
     }
     .right {
+        margin: auto;
         text-align: center;
         padding: 0%;
         padding-top: 20px;
     }
     .p {
-        width: 630px;
+        width: 800px;
         text-align: center;
     }
     button {
         margin: auto;
     }
     footer {
-        width: 630px;
+        width: 800px;
         height: 50px;
         padding-top: 15px;
     }
